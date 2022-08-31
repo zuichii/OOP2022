@@ -11,7 +11,11 @@ int main(){
     cout << book1.date << endl;
     cout << book1.state << endl;
 
-    
 
-    
+    Book book2;
+    cout << book2.title << endl;
+    cout << book2.author << endl;
+    cout << book2.date << endl;
+    cout << book2.state << endl;
+
 }

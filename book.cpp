@@ -6,7 +6,7 @@ using namespace std;
 Book::Book(){
     title = "?";
     author = "?";
-    state = "Free";
+    state = "Available";
     date = "?";
 }
 
@@ -14,6 +14,7 @@ Book::Book(string btitle, string bauthor, string bdate){
     title = btitle;
     author = bauthor;
     date = bdate;
+    state = "Available";
 }
 
 Book::~Book()
