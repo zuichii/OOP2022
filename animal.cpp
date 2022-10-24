@@ -1,6 +1,7 @@
-#include "animal.h"
+#include "Animal.h"
 
 Animal::Animal(){
 
 };
+
 

@@ -1,12 +1,20 @@
-#define ANIMAL_H
 #ifndef ANIMAL_H
-#include <iostream>
+#define ANIMAL_H
+#include <string>
+
 
 class Animal{
-    public:
-    Animal();
+    public: 
+        Animal(string n, int v);
+        
+        string name;
+        int animalID;
+        int volume;
 
 
 
+
+        
+        string name
 };
 #endif
