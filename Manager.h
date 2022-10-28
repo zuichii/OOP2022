@@ -1,4 +1,4 @@
-#ifndef CASUAL_H
+#ifndef MANAGER_H
 #define MANAGER_H
 #include "Employee.h"
 #include <string>
@@ -6,13 +6,16 @@ using namespace std;
 
 class Manager: public Employee{
     protected:
-        int hoursWorked;
+        float hoursWorked;
         int daysWorked;
 
     
     public:
-        int get_hoursWorked();
-        void set_hoursWorked(int hW);
+        Manager();
+        Manager(int payRate);
+        
+        float get_hoursWorked();
+        void set_hoursWorked(float hW);
 
         int get_daysWorked();
         void set_daysWorked(int hW);

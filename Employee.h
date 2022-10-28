@@ -10,7 +10,7 @@ class Employee{
 
     public:
         Employee();
-        Employee(int pR);
+        Employee(int payRate);
 
         int get_payRate();
         void set_payRate(int pR);

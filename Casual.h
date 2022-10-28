@@ -11,14 +11,14 @@ class Casual: public Employee{
         int dayCount = 0;
 
     public:
+        Casual();
+        Casual(int payRate);
+        
         void endWorkDay();
 
         int get_dayCount();
         void set_dayCount(int dC);
 
-
-
 };
-
 
 #endif

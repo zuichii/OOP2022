@@ -6,8 +6,8 @@ Employee::Employee(){
 
 };
 
-Employee::Employee(int pR){
-    payRate = pR;
+Employee::Employee(int payRate){
+    payRate = payRate;
 };
 
 int Employee::get_payRate(){
@@ -15,14 +15,14 @@ int Employee::get_payRate(){
     
 };
 
-void Employee::set_payRate(int pR){
-    payRate = pR;
+void Employee::set_payRate(int payRate){
+    payRate = payRate;
 };
 
 
 void Employee::takeABreak(int mins){
     while(energyLevel < 100){
-        
+
     }
     
 

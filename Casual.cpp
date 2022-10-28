@@ -1,6 +1,14 @@
 #include "Employee.h"
 #include "Casual.h"
 
+Casual::Casual(){
+
+};
+
+Casual::Casual(int payRate){
+    payRate = payRate;
+};
+
 void Casual::endWorkDay(){
     dayCount++;
     energyLevel = 100;
