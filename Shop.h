@@ -19,6 +19,7 @@ class Shop{
         Employee **get_employees();
         int get_count();
 
+        static Shop* createShop(int authority);
 };
 
 
