@@ -15,6 +15,9 @@ class Employee{
         int get_payRate();
         void set_payRate(int pR);
 
+        float get_energyLevel();
+        void set_energyLevel(float eL);
+
         void takeABreak(int mins);
 
         virtual void work(int mins) = 0;
