@@ -25,4 +25,15 @@ int Manager::get_daysWorked(){
 };
 
 
-void set_daysWorked(int hW);
+void Manager::set_daysWorked(int dW){
+    daysWorked = dW;
+};
+
+
+void Manager::work(){
+
+};
+
+float Manager::pay(){
+
+};

@@ -18,7 +18,10 @@ class Manager: public Employee{
         void set_hoursWorked(float hW);
 
         int get_daysWorked();
-        void set_daysWorked(int hW);
+        void set_daysWorked(int dW);
+
+        void work();
+        float pay();
 };
 
 
