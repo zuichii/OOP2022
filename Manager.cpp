@@ -31,9 +31,11 @@ void Manager::set_daysWorked(int dW){
 
 
 void Manager::work(){
+    return;
 
 };
 
 float Manager::pay(){
+    return 0;
 
 };
