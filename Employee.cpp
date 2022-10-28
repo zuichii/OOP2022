@@ -33,6 +33,6 @@ void Employee::takeABreak(int mins){
     while(energyLevel < 100){
 
     }
-    
+    return;
 
 }

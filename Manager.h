@@ -20,7 +20,7 @@ class Manager: public Employee{
         int get_daysWorked();
         void set_daysWorked(int dW);
 
-        void work();
+        void work(int mins);
         float pay();
 };
 

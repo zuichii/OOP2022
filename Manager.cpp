@@ -30,7 +30,7 @@ void Manager::set_daysWorked(int dW){
 };
 
 
-void Manager::work(){
+void Manager::work(int mins){
     return;
 
 };
