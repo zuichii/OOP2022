@@ -20,4 +20,10 @@ void Employee::set_payRate(int pR){
 };
 
 
+void Employee::takeABreak(int mins){
+    while(energyLevel < 100){
+        
+    }
+    
 
+}
