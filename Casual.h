@@ -14,7 +14,9 @@ class Casual: public Employee{
         void endWorkDay();
 
         int get_dayCount();
-        void set_dayCount();
+        void set_dayCount(int dC);
+
+
 
 };
 
