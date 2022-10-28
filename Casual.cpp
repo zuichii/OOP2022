@@ -26,3 +26,7 @@ void Casual::set_dayCount(int dC){
 void Casual::work(int mins){
 
 };
+
+float Casual::pay(){
+
+};

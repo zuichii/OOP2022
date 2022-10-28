@@ -20,6 +20,7 @@ class Casual: public Employee{
         void set_dayCount(int dC);
 
         void work(int mins);
+        float pay();
 
 };
 
